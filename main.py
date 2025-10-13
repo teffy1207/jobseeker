@@ -10,7 +10,7 @@ app = FastAPI()
 async def read_root():
     # 4. 编写路径操作函数
     #    这个函数会返回一个字典，FastAPI会自动将其转换为JSON
-    return {"message": "Hello, Job Seeker! Welcome to your AI Assistant."}
+    return {"message": "Hi, Job Seeker! Welcome to your AI Assistant."}
 
 # 我们再添加一个简单的测试接口
 @app.get("/items/{item_id}")
