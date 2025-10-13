@@ -1,0 +1,16 @@
+# 忽略虚拟环境文件夹
+venv/
+
+# 忽略Python字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略环境变量文件（后面会用到）
+.env
+
+# 忽略日志文件
+logs/
+*.log
+
+.idea
